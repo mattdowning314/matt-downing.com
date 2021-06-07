@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mattxubd/public_html/
-    - /bin/cp -R matt-downing.com $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
