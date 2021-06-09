@@ -3,4 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/mattxubd/public_html/
     - /bin/cp -R webpages $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
