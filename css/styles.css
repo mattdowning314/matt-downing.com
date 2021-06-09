@@ -6,6 +6,11 @@ h2 {
 	font-family: "Monaco", monospace;
 	font-size: 25px;
 }
+h4 {
+	font-family: "Monaco", monospace;
+	font-size: 20px;
+	font-style:bold;
+}
 p {
 	font-family: "Lucida Console", monospace;
 	font-size: 20px;
