@@ -5,4 +5,5 @@ deployment:
     - /bin/cp -R webpages $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
