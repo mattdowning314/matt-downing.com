@@ -4,40 +4,71 @@
       <title>Home Page</title>
   </head>
 
-  <body bgcolor="powderblue">
+  <body bgcolor="#B0E0E6">
 
     <h1 align = "center">Welcome to Matt Downing's Website</h1>
     <p align = "center">matt-downing.com</p>
     <img align = "center" src = "../images/profilepicture.jpg" alt="Profile Picture" width="200" height="200">
   <hr>
 
-  <input type = "button" value = "Projects" onClick="redirectProjects()">
-  <br>
-  <input type = "button" value = "Experience" onClick="redirectExperience()">
+    <p align = "center">
+      <input type = "button" value = "Projects" onClick="redirectProjects()">
 
+      <input type = "button" value = "Experience" onClick="redirectExperience()">
+    </p>
+    <hr>
+    <h2 align = "center">Contact Me!</h2>
+	<p align = "center">
+	    <input type = "button" value = "LinkedIn" onClick="linkedin()"> 
+    	 <input type = "button" value = "GitHub" onClick="github()"> 
+     	<input type = "button" value = "Website" onClick="website()"> 
+	</p>
+    
+  </body>
+   
+   <style>
+	h1 {
+	  font-family: "Monaco", monospace;
+      font-size: 40px;
 
-  <script>
+	}
+	h2 {
+	  font-family: "Monaco", monospace;
+      font-size: 25px;
+	}
+	p {
+      font-family: "Lucida Console", monospace;
+      font-size: 20px;
+    }
+    input{
+       background-color: #F4A460;
+       border-radius: 20px;
+       color: black;
+       padding: 20px; 32px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+    }
+    
+   </style>
+   
+   <script>
   	function redirectProjects() {
   		window.location.href="https://matt-downing.com/webpages/projects.html"
     }
     function redirectExperience() {
   		window.location.href="https://matt-downing.com/webpages/experience.html"
     }  
+    function linkedin() {
+    window.location.href="https://www.linkedin.com/in/matthew-downing-0455a5177/"
+    }  
+    function github() {
+  	window.location.href="https://github.com/mattdowning314/"
+    }  
+    function website() {
+  	window.location.href="https://matt-downing.com"
+    }  
   </script>
-
-    <hr>
-    <h3 align = "center">Contact Me!</h3>
-
-    <table border = "1" align = "center" width = "200" height = "100" style = "background-color:yellow">
-        <tr align = "center">
-            <td colspan = "2"><a href="https://www.linkedin.com/in/matthew-downing-0455a5177/">LinkedIn</td>
-        </tr>
-        <tr align = "center">
-            <td><a href="https://github.com/mattdowning314/">Github</td>
-            <td><a href="https://matt-downing.com">Website</a></td>
-        </tr>
-    </table>
-
-
-  </body>
 </html>
+
