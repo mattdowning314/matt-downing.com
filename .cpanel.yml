@@ -4,4 +4,5 @@ deployment:
     - export DEPLOYPATH=/home/mattxubd/public_html/
     - /bin/cp -R webpages $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
