@@ -1,16 +1,16 @@
- h1 {
+.h1 {
 	font-family: "Monaco", monospace;
 	font-size: 40px;
 }
-h2 {
+.h2 {
 	font-family: "Monaco", monospace;
 	font-size: 25px;
 }
-p {
+.p {
 	font-family: "Lucida Console", monospace;
 	font-size: 20px;
 }
-input{
+.input{
 	background-color: #F4A460;
 	border-radius: 20px;
 	color: black;
