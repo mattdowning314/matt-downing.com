@@ -13,3 +13,6 @@ function github() {
 function website() {
 	window.location.href="https://matt-downing.com"
 }
+function redirectHomePage() {
+	window.location.href="https://matt-downing.com"
+}
