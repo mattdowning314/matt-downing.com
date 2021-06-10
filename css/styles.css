@@ -48,3 +48,11 @@ ul{
 	font-family: "Lucida Console", monospace;
 	font-size: 20px;
 }
+aside{
+	float:right;
+	width:40%;
+}
+section{
+	float:left;
+	width:60%;
+}
