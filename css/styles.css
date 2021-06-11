@@ -24,7 +24,18 @@ p {
 	font-family: "Lucida Console", monospace;
 	font-size: 20px;
 }
-input{
+input {
+	background-color: #F4A460;
+	border-radius: 20px;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+textarea{
 	background-color: #F4A460;
 	border-radius: 20px;
 	color: black;
