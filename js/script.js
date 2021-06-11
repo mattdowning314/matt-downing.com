@@ -4,6 +4,9 @@ function redirectProjects() {
 function redirectExperience() {
 	window.location.href="https://matt-downing.com/webpages/experience.html"
 }  
+function redirectContact() {
+	window.location.href="https://matt-downing.com/webpages/contactform.html"
+}
 function linkedin() {
 	window.location.href="https://www.linkedin.com/in/matthew-downing-0455a5177/"
 }  
