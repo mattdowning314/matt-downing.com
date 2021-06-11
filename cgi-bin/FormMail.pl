@@ -44,7 +44,7 @@ BEGIN
   $max_recipients    = 5;
   $mailprog          = '/usr/lib/sendmail -oi -t';
   $postmaster        = '';
-  @referers          = qw(https://matt-downing.com https://www.matt-downing.com);
+  @referers          = qw(https://matt-downing.com https://www.matt-downing.com matt-downing.com);
   @allow_mail_to     = qw(matt@matt-downing.com);
   @recipients        = ();
   %recipient_alias   = ();
