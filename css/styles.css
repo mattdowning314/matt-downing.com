@@ -24,7 +24,7 @@ p {
 	font-family: "Lucida Console", monospace;
 	font-size: 20px;
 }
-input {
+input[type=textline]{
 	background-color: #F4A460;
 	border-radius: 20px;
 	color: black;
@@ -34,7 +34,31 @@ input {
 	display: inline-block;
 	font-size: 16px;
 }
-
+input[type=button]{
+	background-color: #F4A460;
+	border-radius: 20px;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+input[type=button][class=secret]{
+	background-color: powderblue;
+	border-radius: 0px;
+	color: powderblue;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-color: powderblue;
+	border: none;
+}
+img[class=secret]{
+	visibility: hidden;
+}
 textarea{
 	background-color: #F4A460;
 	border-radius: 20px;
