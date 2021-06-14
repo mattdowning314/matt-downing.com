@@ -29,7 +29,7 @@ input[type=textline]{
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
@@ -56,6 +56,16 @@ input[type=button][class=secret]{
 	border-color: powderblue;
 	border: none;
 }
+input[type=submit]{
+	background-color: #F4A460;
+	border-radius: 20px;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
 img[class=secret]{
 	visibility: hidden;
 }
@@ -64,7 +74,7 @@ textarea{
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;

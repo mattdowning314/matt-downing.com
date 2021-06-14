@@ -13,7 +13,103 @@
 
 	<h2 align = "center">Festo</h2>
 	
-  <hr>
+<hr>
+  	<p align = "left" >
+	<h3> Open Loop Pipette </h3>
+	<table width = "800" height = "600">
+		<tr>
+		<td width = "300">Goal: Develop schematic and first PCB prototypes for an open loop pipette using CAN and USB communication. Develop initial firmware for testing system peripherals. </td>
+		<td width = "250"><img align = "right" src = "../images/festo-openloop-1.jpg" alt="Festo OL 1" width="200" height="200"></td>
+		<td width = "250"><img align = "right" src = "../images/festo-openloop-2.png" alt="Festo OL 2" width="200" height="200"></td>
+		</tr>
+		<tr>
+		<td>Challenge: Learn new PCB design tool (Circuit Maker). Learn firmware programming tool (STM32CubeIDE). Developing most of the system from the beginning. Sourcing components for the entire system that work in a small form factor. Condensing design down to fit on a tight size constraint of PCB.</td>
+		<td width = "250"><img align = "right" src = "../images/festo-openloop-3.png" alt="Festo OL 3" width="200" height="200"></td>
+		<td width = "250"><img align = "right" src = "../images/festo-openloop-4.png" alt="Festo OL 4" width="200" height="200"></td>
+		</tr>
+		<tr>
+		<td>Success: Developed five prototype PCBs each incorporating new features and fixing hardware bugs. Got the system from concept to proof of concept and turned over project to full time engineer for full product development. Created initial firmware to test and prove out CAN communication as well as other peripherals. Transferred knowledge to full time firmware engineer to develop product.</td>
+		</tr>
+	</table>
+	<h4> Hardware and Software Tools </h4>
+	<img src = "../images/pipettelogo.jpeg" alt="Pipette" width="100" height="100">
+	<img src = "../images/cancommunication.png" alt="CAN" width="100" height="100">
+	<img src = "../images/circuitmaker.jpeg" alt="Cirucit Maker" width="100" height="100">
+	<img src = "../images/pcbway.png" alt="PCBWay" width="100" height="100">
+	</p>
+
+   <hr>
+    	<p align = "left" >
+	<h3> Gantry LED Controller </h3>
+	<table width = "800" height = "600">
+		<tr>
+		<td width = "300">Goal: Create a PCB to control an individually addressable LED strip via 24V power supply on gantry system. Create software to switch between colors depending on state of system (running, standby, error).</td>
+		<td width = "250"><img align = "right" src = "../images/festo-ledcontroller-1.jpg" alt="Festo LED 1" width="200" height="200"></td>
+		<td width = "250"><img align = "right" src = "../images/festo-ledcontroller-2.jpg" alt="Festo LED 2" width="200" height="200"></td>
+		</tr>
+		<tr>
+		<td>Challenge: LED strip signal was not very stable over long wire distance, which was necessary to fit onto system. Had to make system robust so that it could be replicated across many prototypes and easily installed.</td>
+		<td width = "250"><img align = "right" src = "../images/festo-ledcontroller-3.png" alt="Festo LED 3" width="200" height="200"></td>
+		<td width = "250"><img align = "right" src = "../images/festo-ledcontroller-4.png" alt="Festo LED 4" width="200" height="200"></td>
+		</tr>
+		<tr>
+		<td>Success: Prototype worked and was installed on three gantry systems sent to customers and managment. Software worked and was implemented into main code base to integrate with rest of system.</td>
+		</tr>
+	</table>
+	<h4> Hardware and Software Tools </h4>
+	<img src = "../images/dotstar.jpeg" alt="Dotstar" width="100" height="100">
+	<img src = "../images/raspberrypi.png" alt="Raspberry Pi" width="100" height="100">
+	<img src = "../images/spi.png" alt="SPI" width="100" height="100">
+	</p>
+
+   <hr>
+  	<p align = "left" >
+	<h3> Remote Power Controller </h3>
+	<table width = "800" height = "600">
+		<tr>
+		<td width = "300">Goal: Create a way for the power (24V) of a gantry system to be remotely controlled on and off via the 3V3 digital I/O pins of a Raspberry Pi so that remote software developers could control the system in case of major issue.</td>
+		<td width = "250"><img align = "right" src = "../images/festo-powercontroller-1.jpg" alt="Festo Power 1" width="200" height="200"></td>
+		<td width = "250"><img align = "right" src = "../images/festo-powercontroller-2.png" alt="Festo Power 2" width="200" height="200"></td>
+		</tr>
+		<tr>
+		<td>Challenge: Make it work reliably so that it could be trusted to stop motor system in case of issue when being worked on remotely. Have a 3V3 signal control a 24V relay in a cost-effective way.</td>
+		<td width = "250"><img align = "right" src = "../images/festo-powercontroller-3.png" alt="Festo Power 3" width="200" height="200"></td>
+		</tr>
+		<tr>
+		<td>Success: System worked and was implemented on a gantry system that was being coded and tested remotely. Raspberry Pi pin was able to control power for system without shutting down Pi so that it could be restarted remotely as well.</td>
+		</tr>
+	</table>
+	<h4> Hardware and Software Tools </h4>
+	<img src = "../images/raspberrypi.png" alt="Raspberry Pi" width="100" height="100">
+	<img src = "../images/relay.png" alt="Relay" width="100" height="100">
+	<img src = "../images/remote.jpeg" alt="Remote" width="100" height="100">
+	</p>
+
+   <hr>
+  	<p align = "left" >
+	<h3> Programmer Interface Board </h3>
+	<table width = "800" height = "600">
+		<tr>
+		<td width = "300">Goal: Create interface board to program via J-Link debugger with a specific connector. No alternative was available on the market.</td>
+		<td width = "250"><img align = "right" src = "../images/festo-interface-1.jpg" alt="Festo Interface 1" width="200" height="200"></td>
+		<td width = "250"><img align = "right" src = "../images/festo-interface-2.png" alt="Festo Interface 2" width="200" height="200"></td>
+		</tr>
+		<tr>
+		<td>Challenge: Challenging documentation on how the connectors were supposed to be connected. No off-the-shelf solutions were available. Make the connector small to fit on boards in tight spaces.</td>
+		<td width = "250"><img align = "right" src = "../images/festo-interface-3.png" alt="Festo Interface 3" width="200" height="200"></td>
+		<td width = "250"><img align = "right" src = "../images/festo-interface-4.png" alt="Festo Interface 4" width="200" height="200"></td>
+		</tr>
+		<tr>
+		<td>Success: First prototype worked but had issues with not being easy to install. Second prototype was smaller and was solution adopted by office for programming the boards moving forward.</td>
+		<td width = "250"><img align = "right" src = "../images/festo-interface-5.png" alt="Festo Interface 5" width="200" height="200"></td>
+		</tr>
+	</table>
+	<h4> Hardware and Software Tools </h4>
+	<img src = "../images/jlink.jpeg" alt="J-Link" width="100" height="100">
+	<img src = "../images/segger.png" alt="Segger" width="100" height="100">
+	</p>
+
+   <hr>
 
   <input type = "button" value = "Home Page" onClick="redirectHomePage()">
    <h2 align = "center">Contact Me!</h2>
