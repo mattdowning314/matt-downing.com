@@ -4,6 +4,12 @@ function redirectProjects() {
 function redirectExperience() {
 	window.location.href="https://matt-downing.com/webpages/experience.html"
 }  
+function redirectVolunteer() {
+	window.location.href="https://matt-downing.com/webpages/volunteer.html"
+}
+function redirectSkills() {
+	window.location.href="https://matt-downing.com/webpages/skills.html"
+}  
 function redirectContact() {
 	window.location.href="https://matt-downing.com/webpages/contactform.html"
 }
