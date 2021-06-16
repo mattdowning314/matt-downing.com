@@ -9,6 +9,9 @@ function redirectVolunteer() {
 }
 function redirectSkills() {
 	window.location.href="https://matt-downing.com/webpages/skills.html"
+}
+function redirectResume() {
+	window.location.href="https://matt-downing.com/webpages/resume.html"
 }  
 function redirectContact() {
 	window.location.href="https://matt-downing.com/webpages/contactform.html"
