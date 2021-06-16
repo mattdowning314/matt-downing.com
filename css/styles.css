@@ -102,10 +102,17 @@ section{
 	width:60%;
 }
 /* bar graph of skills */
+table[class="graph"] {
+	margin-bottom:10em;
+	font:normal 100%/150% "Monaco", monospace;
+}
+/*
 .graph {
 	margin-bottom:10em;
 	font:normal 100%/150% "Monaco", monospace;
 }
+
+*/
 .graph caption {
 	font:150%/120% "Monaco", monospace;
 	font-style:bold;
@@ -114,6 +121,7 @@ section{
 .graph tbody th {
 	text-align:right;
 }
+
 
 @supports (display:grid) {
 	@media (min-width:32em) {
