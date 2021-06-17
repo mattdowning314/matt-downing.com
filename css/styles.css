@@ -1,5 +1,7 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
 body {
-	background: "red";
+	background-color: #afc2d5;
 }
 h1 {
 	font-family: "Monaco", monospace;
@@ -27,6 +29,7 @@ p {
 	font-family: "Lucida Console", monospace;
 	font-size: 20px;
 }
+
 input[type=textline]{
 	background-color: #F4A460;
 	border-radius: 20px;
@@ -104,18 +107,14 @@ section{
 	float:left;
 	width:60%;
 }
+
 /* bar graph of skills */
+
 table[class="graph"] {
 	margin-bottom:10em;
 	font:normal 100%/150% "Monaco", monospace;
 }
-/*
-.graph {
-	margin-bottom:10em;
-	font:normal 100%/150% "Monaco", monospace;
-}
 
-*/
 .graph caption {
 	font:150%/120% "Monaco", monospace;
 	font-style:bold;
