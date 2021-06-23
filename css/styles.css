@@ -50,18 +50,7 @@ input[type=button]{
 	display: inline-block;
 	font-size: 16px;
 }
-input[type=button][class=secret]{
-	background-color: powderblue;
-	border-radius: 0px;
-	color: powderblue;
-	padding: 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	border-color: powderblue;
-	border: none;
-}
+
 input[type=submit]{
 	background-color: #F4A460;
 	border-radius: 20px;
@@ -72,8 +61,8 @@ input[type=submit]{
 	display: inline-block;
 	font-size: 16px;
 }
-img[class=secret]{
-	visibility: hidden;
+img{
+	border: 5px solid #F4A460;
 }
 textarea{
 	background-color: #F4A460;

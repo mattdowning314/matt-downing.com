@@ -56,20 +56,4 @@ function redirectproject(project) {
 		window.location.href="https://matt-downing.com/webpages/projects-bootcamp.html"
 	}
 }
-var animate;
-
-function movinganimation(){
-	document.getElementById("secretpicture").style.left = parseInt(document.getElementById("secretpicture").style.left) + 5 + 'px';
-	document.getElementById("secretpicture").style.top = parseInt(document.getElementById("secretpicture").style.top) - 5 + 'px';
-	animate = setTimeout(movinganimation, 40);
-}
-
-function secret(){
-	document.getElementById("secretpicture").style.visibility = "visible";
-	document.getElementById("secretpicture").style.position = 'relative';
-	document.getElementById("secretpicture").style.left = '0px';
-	document.getElementById("secretpicture").style.top = '0px';
-	movinganimation();
-}
-
 
