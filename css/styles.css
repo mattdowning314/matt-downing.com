@@ -31,7 +31,7 @@ p {
 }
 
 input[type=textline]{
-	background-color: #F4A460;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
@@ -41,7 +41,7 @@ input[type=textline]{
 	font-size: 16px;
 }
 input[type=button]{
-	background-color: #F4A460;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
@@ -52,7 +52,7 @@ input[type=button]{
 }
 
 input[type=submit]{
-	background-color: #F4A460;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
@@ -65,7 +65,7 @@ img{
 	border: 5px solid #F4A460;
 }
 textarea{
-	background-color: #F4A460;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
@@ -75,7 +75,7 @@ textarea{
 	font-size: 16px;
 }
 table[class=typical]{
-	background-color: #FFE4C4;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	text-align: center;
