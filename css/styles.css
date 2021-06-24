@@ -1,3 +1,8 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+body {
+	background-color: #c5e5d4;
+}
 h1 {
 	font-family: "Monaco", monospace;
 	font-size: 40px;
@@ -24,8 +29,9 @@ p {
 	font-family: "Lucida Console", monospace;
 	font-size: 20px;
 }
+
 input[type=textline]{
-	background-color: #F4A460;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
@@ -35,7 +41,7 @@ input[type=textline]{
 	font-size: 16px;
 }
 input[type=button]{
-	background-color: #F4A460;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
@@ -44,20 +50,9 @@ input[type=button]{
 	display: inline-block;
 	font-size: 16px;
 }
-input[type=button][class=secret]{
-	background-color: powderblue;
-	border-radius: 0px;
-	color: powderblue;
-	padding: 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	border-color: powderblue;
-	border: none;
-}
+
 input[type=submit]{
-	background-color: #F4A460;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
@@ -66,11 +61,11 @@ input[type=submit]{
 	display: inline-block;
 	font-size: 16px;
 }
-img[class=secret]{
-	visibility: hidden;
+img{
+	border: 5px solid #F4A460;
 }
 textarea{
-	background-color: #F4A460;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	padding: 20px;
@@ -80,7 +75,7 @@ textarea{
 	font-size: 16px;
 }
 table[class=typical]{
-	background-color: #FFE4C4;
+	background-color: #E7E08B;
 	border-radius: 20px;
 	color: black;
 	text-align: center;
@@ -101,18 +96,14 @@ section{
 	float:left;
 	width:60%;
 }
+
 /* bar graph of skills */
+
 table[class="graph"] {
 	margin-bottom:10em;
 	font:normal 100%/150% "Monaco", monospace;
 }
-/*
-.graph {
-	margin-bottom:10em;
-	font:normal 100%/150% "Monaco", monospace;
-}
 
-*/
 .graph caption {
 	font:150%/120% "Monaco", monospace;
 	font-style:bold;
